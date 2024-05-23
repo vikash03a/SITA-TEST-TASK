@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.example.sitatesttask.service.FileProcessorServiceTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 3.192 s <<< FAILURE! - in com.example.sitatesttask.service.FileProcessorServiceTest
+testProcessFile  Time elapsed: 0.543 s  <<< ERROR!
+java.lang.RuntimeException: Error moving file to error directory
+	at com.example.sitatesttask.service.FileProcessorServiceTest.testProcessFile(FileProcessorServiceTest.java:46)
+Caused by: java.nio.file.NoSuchFileException: E:\SITA_TEST_TASK\IN\test.txt -> C:\SITA_TEST_TASK\ERROR\test.txt.ERROR
+	at com.example.sitatesttask.service.FileProcessorServiceTest.testProcessFile(FileProcessorServiceTest.java:46)
+

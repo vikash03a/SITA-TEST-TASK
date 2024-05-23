@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.example.ja_user_info_http.service.UserServiceTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.592 s <<< FAILURE! - in com.example.ja_user_info_http.service.UserServiceTest
+testPostUserDetail  Time elapsed: 0.585 s  <<< ERROR!
+org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:8080/userDetail": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+	at com.example.ja_user_info_http.service.UserServiceTest.testPostUserDetail(UserServiceTest.java:48)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at com.example.ja_user_info_http.service.UserServiceTest.testPostUserDetail(UserServiceTest.java:48)
+

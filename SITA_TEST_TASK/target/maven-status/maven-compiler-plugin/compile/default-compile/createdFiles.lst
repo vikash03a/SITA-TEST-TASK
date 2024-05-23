@@ -1,0 +1,5 @@
+com\example\sitatesttask\service\FileProcessingException.class
+com\example\sitatesttask\config\IntegrationConfig.class
+com\example\sitatesttask\SitaTestTaskApplication.class
+com\example\sitatesttask\util\FileUtils.class
+com\example\sitatesttask\service\FileProcessorService.class

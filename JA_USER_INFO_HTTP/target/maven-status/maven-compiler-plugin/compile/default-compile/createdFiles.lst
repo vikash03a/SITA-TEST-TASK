@@ -1,0 +1,5 @@
+com\example\ja_user_info_http\JaUserInfoHttpApplication.class
+com\example\ja_user_info_http\model\UserResponse.class
+com\example\ja_user_info_http\config\WebSecurityConfig.class
+com\example\ja_user_info_http\controller\UserController.class
+com\example\ja_user_info_http\service\UserService.class
