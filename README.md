@@ -1,1 +1,0 @@
-# SITA-TEST-TASK
