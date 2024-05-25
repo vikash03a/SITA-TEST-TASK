@@ -4,23 +4,19 @@
 This project is a Spring Boot web service that accepts a username as a query parameter, checks if the user exists in a properties file, and then posts user details to another web service.
 
 ## Prerequisites
-- Java 8 or above
+- Java 17  
 - Maven
-- A suitable IDE (e.g., IntelliJ, Eclipse)
+-  IntelliJ
 
 ## Building the Project
 1. Clone the repository:
-    ```
-    git clone <repository-url>
-    ```
+    
 2. Navigate to the project directory:
-    ```
-    cd JA_USER_INFO_HTTP
-    ```
+     
 3. Build the project using Maven:
-    ```
+    
     mvn clean install
-    ```
+     
 
 ## Running the Project
 1. Run the Spring Boot application:
@@ -44,4 +40,4 @@ This project is a Spring Boot web service that accepts a username as a query par
 
 ## Notes
 - Ensure that the external service URL in `application.properties` is correctly set up.
-- The application uses basic HTTP authentication (not shown in this example for brevity).
+- The application uses basic HTTP authentication  
